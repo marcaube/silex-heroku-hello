@@ -4,7 +4,7 @@ After seeing a tweet by @hochchristoph, regarding his [heroku-buildpack-php](htt
 ## Requirements
 You'll need a couple of things before you can deploy your app :
 * A Heroku account ([Signup on Heroku](https://id.heroku.com/signup))
-* The Heroku Toolbelt for the CLI commands ([Download the Toolbelt)[https://toolbelt.heroku.com/])
+* The Heroku Toolbelt for the CLI commands ([Download the Toolbelt](https://toolbelt.heroku.com/))
 
 ## Try it with this repo
 * Clone this repo on your machine with `git clone https://github.com/marcaube/silex-heroku-hello.git silex-heroku-hello`
