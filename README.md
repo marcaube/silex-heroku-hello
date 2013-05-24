@@ -7,7 +7,7 @@ You'll need a couple of things before you can deploy your app :
 * The Heroku Toolbelt for the CLI commands ([Download the Toolbelt)[https://toolbelt.heroku.com/])
 
 ## Try it with this repo
-* Clone this repo on your machine
+* Clone this repo on your machine with `git clone https://github.com/marcaube/silex-heroku-hello.git silex-heroku-hello`
 * Create your Heroku app with `heroku apps:create your-app-name --buildpack https://github.com/CHH/heroku-buildpack-php`
 * Deploy with `git push heroku master`
 * Your done!
