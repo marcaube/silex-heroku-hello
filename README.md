@@ -13,7 +13,23 @@ You'll need a couple of things before you can deploy your app :
 * You're done!
 
 ## Start from scratch
-* Create a new Silex app via Composer ([Install Silex](http://silex.sensiolabs.org/download))
+* Create a new Silex app via Composer ([Install Silex](http://silex.sensiolabs.org/download)). Note that you have to add some extra to your `composer.json`. It should look like this :
+
+``` json
+{
+    "name": "silex-heroku-hello",
+    "require": {
+        "php": ">=5.3.0",
+        "silex/silex": "~1.0@dev"
+    },
+    "extra": {
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        }
+    }
+}
+```
 * Create a git repo with `git init`
 * Create a `.gitignore` file and add `/vendor/` and `/composer.phar`
 * Add all other files with `git add .`
