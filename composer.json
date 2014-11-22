@@ -1,8 +1,8 @@
 {
     "name": "silex-heroku-hello",
     "require": {
-        "php": ">=5.3.0",
-        "silex/silex": "~1.0@dev"
+        "php": ">=5.3",
+        "silex/silex": "~1.1",
     },
     "extra": {
         "heroku": {
